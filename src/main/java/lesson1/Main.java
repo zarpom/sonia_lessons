@@ -2,6 +2,7 @@ package lesson1;
 
 public class Main {
     public static void main(String[] args) {
+
         byte b1 = 20;
 
         byte b2 = (byte) (b1 + 100 + 50 + 100);
