@@ -4,6 +4,31 @@ public class MethodExamples {
     // Введення до методів в Java
     // Методи в Java - це блоки коду, які виконують певну операцію та можуть бути викликані з інших частин програми.
 
+
+    public static void main(String[] args) {
+        int sum = addTwoNumbers(5, 7);
+        System.out.println("Сума двох чисел: " + sum);
+
+        int square = squareNumber(4);
+        System.out.println("Квадрат числа: " + square);
+
+        boolean isEvenNumber = isEven(6);
+        System.out.println("Число парне: " + isEvenNumber);
+
+        String concatenatedStr = concatenateStrings("Привіт, ", "Світ!");
+        System.out.println("Результат конкатенації рядків: " + concatenatedStr);
+
+        double average = averageOfThreeNumbers(10, 20, 30);
+        System.out.println("Середнє арифметичне трьох чисел: " + average);
+
+        int max = maxOfTwoNumbers(25, 15);
+        System.out.println("Максимальне число: " + max);
+
+        String grade = gradeFromScore(75);
+        System.out.println("Оцінка за балом: " + grade);
+
+        printBuddhaQuote();
+    }
     // Метод для додавання двох чисел
     public static int addTwoNumbers(int num1, int num2) {
         return num1 + num2;
