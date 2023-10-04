@@ -39,7 +39,6 @@ public class HomeWorkHelp {
 //    }
 
     public static int middleNumber(int[] numbers) {
-
         return numbers.length % 2 == 0 ? Math.min(numbers[numbers.length / 2 - 1], numbers[numbers.length / 2]) : numbers[numbers.length / 2];
     }
 }
